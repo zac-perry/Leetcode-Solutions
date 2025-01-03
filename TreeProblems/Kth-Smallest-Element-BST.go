@@ -1,4 +1,7 @@
 // 230. Kth Smallest Element in a BST
+// Runtime: 
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
 
 /**
  * Definition for a binary tree node.
@@ -9,7 +12,7 @@
  * }
  */
 
-// helper function performs a DFS traversal on the tree
+// helper function performs a DFS, in order traversal on the tree
 // We keep count of the nodes we visit. In this case, whenever the count == k, we return that value
 // This works since it's looking for the kth-smallest value. So, whenever we are at the kth value, we just return
 func helper(root *TreeNode, k int, counter *int, answer *int) {
