@@ -9,3 +9,8 @@ Instead of checking every combination of elements (O(n^2)), two pointers allows 
 2. Opposite Direction
   - Typically used for finding pairs or comparing elements from opposite ends of the data structure.
   - Example: Two Sum -> finding two numbers that sum up to a target. One pointer starts at the beginning, the other at the end. 
+
+## ones to review
+- container with most water
+- 3 sum
+- Rain water
