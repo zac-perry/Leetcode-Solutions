@@ -8,6 +8,7 @@ Questions to look back on and practice:
 - Inverting
 - Flatten to Linked List
 - Diameter
+- Construct from pre and in order traversal values
 
 ### BFS
 - Right Side View
